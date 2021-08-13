@@ -21,7 +21,15 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
-
+.header-top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    
+}
 main {
     display: flex;
     flex-direction: column;
@@ -29,7 +37,26 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 3px black;
+    height: auto;
+    width: 45vw;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+.score-box  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 15px;
+    font-size: auto ;
 
+}
 section {
     background-color: var(--color5);
     width: 1000px;
@@ -47,10 +74,11 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: orange;
 }
 
 footer {
