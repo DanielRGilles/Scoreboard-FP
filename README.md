@@ -1,7 +1,15 @@
 ## Making a plan
 1) Make a drawing of your app. Simple "wireframes"
+
+
+
 2) Once you have a drawing, name the HTML elements you'll need to realize your vision
+two buttons, two injection areas inside a box
+
 3) For each HTML element ask: Why do I need this?
+each button so that the user can click to add points
+each injection area to display current point total
+div box to make it nice looking 
 4) Once we know _why_ we need each element, think about how to implement the "Why" as a "How"
 5) Is there some state we need to initialize?
 6) Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
